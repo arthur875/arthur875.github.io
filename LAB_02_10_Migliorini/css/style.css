@@ -1,0 +1,141 @@
+#titolo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-color: yellow;
+    padding: 20px;
+}
+
+#titolo span {
+    position: relative;
+    top: 0px;
+    left: 200px;
+}
+
+#titolo div {
+    position: relative;
+    top: 0px; 
+    left: 0px;
+}
+
+#bottone_vantaggi {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top: -50px;
+    border: 2px solid black;
+    background-color: yellow; /* Add a background color for the button */
+    display: block;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+#bottone_vantaggi:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header-immagini-cagnolini {
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+    margin-right: 550px;
+}
+
+#paragrafo-titolo{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+
+body {
+    background-color:black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cagnolino-1 {
+    width: 45%;
+    height: auto;
+    margin-left: 40px;
+}
+#cagnolino-2 {
+    width: 47%;
+    height: 576px;
+    margin-left: 55px;
+    margin-right: 40px;
+}
+
+
+
+/* Pagina Motivazioni */
+
+#titolo-pagina-motivazioni {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+ul {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    margin-left: 100px;
+}
+
+#link-argomento {
+    text-decoration: dashed yellow;
+    color: rgb(7, 181, 239);
+}
+
+#titolo-paragrafi {
+    color: rgb(7, 181, 239);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+#nome-paragrafo {
+    color: rgb(134, 35, 35);
+    font-size: 30px;
+}
+
+#paragrafi-spiegazione {
+    color: white;
+    font-size: 20px;
+}
+
+#spiegazione-affetto {
+    color: white;
+    font-size: 20px;
+    margin-left: -90px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+
+#spiegazione-amicizie {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    display: inline-block;
+}

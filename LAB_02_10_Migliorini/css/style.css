@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #titolo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -26,19 +30,37 @@
     text-align: center;
     color: black;
     padding: 10px;
-    margin-left: 1000px;
+    margin-left: 1500px;
     margin-top: -50px;
     border: 2px solid black;
     background-color: yellow; /* Add a background color for the button */
     display: block;
-    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #bottone_vantaggi:hover {
     background-color: black;
     color: white;
-    border: 2px solid black;
 }
+
+#bottone_razze {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 1700px;
+    margin-top: -50px;
+    border: 2px solid black;
+    background-color: yellow; /* Add a background color for the button */
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#bottone_razze:hover {
+    background-color: black;
+    color: white;
+}
+
 
 a {
     text-decoration: none;
@@ -82,6 +104,8 @@ body {
 
 /* Pagina Motivazioni */
 
+
+
 #titolo-pagina-motivazioni {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -93,22 +117,45 @@ body {
 }
 
 ul {
+    list-style: none; /* Remove the default list style */
     color: white;
     font-size: 30px;
-    line-height: 80px;
-    margin-left: 100px;
+    line-height: 150px;
+    margin-right: 0; /* Move the entire ul to the right */
+    position: sticky; /* Position the ul sticky */
+    right: 0; /* Align the ul to the right side of the screen */
+    margin-left: auto;
+    top: 0;
+    width: fit-content;
+}
+
+ul li {
+    transition: margin-left 1s; /* Only transition the margin-left property */
+}
+
+ul li:hover {
+    margin-left: -40px; /* Adjust the margin to move the list item to the left */
+}
+
+/* Add a bullet point before each list item */
+ul li::before { 
+    content: '•';
+    color: yellow;
+    position: relative; /* Position the bullet point relative to the list item */
+    left: -20px;
 }
 
 #link-argomento {
-    text-decoration: dashed yellow;
-    color: rgb(7, 181, 239);
+    text-decoration: none;
+    color: inherit; /* Use the parent color */
 }
 
-#titolo-paragrafi {
+.titolo-paragrafi {
     color: rgb(7, 181, 239);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    margin-left: 200px;
+    margin-left: 30px;
+    margin-bottom: 100px;
 }
 
 #nome-paragrafo {
@@ -121,21 +168,23 @@ ul {
     font-size: 20px;
 }
 
-#spiegazione-affetto {
-    color: white;
-    font-size: 20px;
-    margin-left: -90px;
-    border: 2px solid white;
+/* General styles */
+.border-box {
+    border: 3px solid white;
     padding: 5px 10px;
     display: inline-block;
 }
 
-
-#spiegazione-amicizie {
+.text-white {
     color: white;
     font-size: 20px;
+}
+
+/* Specific styles */
+#spiegazione-paragrafo {
     margin-left: 50px;
-    border: 2px solid white;
-    padding: 5px 10px;
-    display: inline-block;
+    margin-bottom: 100px;
 }
+
+
+/* Pagina Razze */

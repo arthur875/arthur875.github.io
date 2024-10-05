@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-color: yellow;
+    padding: 20px;
+}
+
+#title span {
+    position: relative;
+    top: 0px;
+    left: 200px;
+}
+
+#title div {
+    position: relative;
+    top: 0px; 
+    left: 0px;
+}
+
+#button-benefits {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 1500px;
+    margin-top: -50px;
+    border: 2px solid black;
+    background-color: yellow; /* Add a background color for the button */
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#button-benefits:hover {
+    background-color: black;
+    color: white;
+}
+
+#button-breeds {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 1700px;
+    margin-top: -50px;
+    border: 2px solid black;
+    background-color: yellow; /* Add a background color for the button */
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#button-breeds:hover {
+    background-color: black;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#titolo-fondo-pagina {
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+    margin-right: 550px;
+}
+
+#paragrafo-titolo{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+
+body {
+    background-color:black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#doggo-1 {
+    width: 45%;
+    height: auto;
+    margin-left: 40px;
+}
+#doggo-2 {
+    width: 47%;
+    height: 576px;
+    margin-left: 55px;
+    margin-right: 40px;
+}

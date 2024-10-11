@@ -30,8 +30,8 @@ html {
     text-align: center;
     color: black;
     padding: 10px;
-    margin-left: 1500px;
-    margin-top: -50px;
+    margin-left: 1400px;
+    margin-top: -48px;
     border: 2px solid black;
     background-color: yellow; /* Add a background color for the button */
     display: block;
@@ -48,8 +48,8 @@ html {
     text-align: center;
     color: black;
     padding: 10px;
-    margin-left: 1700px;
-    margin-top: -50px;
+    margin-left: 1600px;
+    margin-top: -45px;
     border: 2px solid black;
     background-color: yellow; /* Add a background color for the button */
     display: block;
@@ -57,6 +57,24 @@ html {
 }
 
 #button-breeds:hover {
+    background-color: black;
+    color: white;
+}
+
+#button-multiplication-table {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 1750px;
+    margin-top: -48px; /* Adjust as needed */
+    border: 2px solid black;
+    background-color: yellow; /* Add a background color for the button */
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#button-multiplication-table:hover {
     background-color: black;
     color: white;
 }
@@ -98,4 +116,18 @@ body {
     height: 576px;
     margin-left: 55px;
     margin-right: 40px;
+}
+
+
+#date {
+    font-size: 20px;
+    color: black;
+    margin-top: 50px;
+}
+
+#greeting_message {
+    font-size: 25px;
+    color: black;
+    margin-top: -50px;
+    margin-left: 200px;
 }

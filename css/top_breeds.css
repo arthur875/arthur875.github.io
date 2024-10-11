@@ -30,7 +30,7 @@ html {
     text-align: center;
     color: black;
     padding: 10px;
-    margin-left: 1500px;
+    margin-left: 1400px;
     margin-top: -50px;
     border: 2px solid black;
     background-color: yellow; /* Add a background color for the button */
@@ -48,7 +48,7 @@ html {
     text-align: center;
     color: black;
     padding: 10px;
-    margin-left: 1700px;
+    margin-left: 1600px;
     margin-top: -50px;
     border: 2px solid black;
     background-color: yellow; /* Add a background color for the button */
@@ -61,6 +61,24 @@ html {
     color: white;
 }
 
+
+#button-multiplication-table {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 1750px;
+    margin-top: -48px; /* Adjust as needed */
+    border: 2px solid black;
+    background-color: yellow; /* Add a background color for the button */
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#button-multiplication-table:hover {
+    background-color: black;
+    color: white;
+}
 a {
     text-decoration: none;
     color: black;
@@ -122,4 +140,20 @@ body {
     text-align: center;
     color: white;
     margin-top: -20px;
-} 
+}
+
+
+
+
+#date {
+    font-size: 20px;
+    color: black;
+    margin-top: 50px;
+}
+
+#greeting_message {
+    font-size: 25px;
+    color: black;
+    margin-top: -50px;
+    margin-left: 200px;
+}
